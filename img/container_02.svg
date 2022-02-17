@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="596"
+   height="736"
+   viewBox="0 0 596 736"
+   fill="none"
+   version="1.1"
+   id="svg892"
+   sodipodi:docname="container.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata896">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="695"
+     id="namedview894"
+     showgrid="false"
+     inkscape:zoom="0.32065217"
+     inkscape:cx="298"
+     inkscape:cy="368"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg892" />
+  <path
+     d="M627.661 731.544L137.85 583.652C111.265 575.625 90.7957 554.308 83.8537 527.419L3.13335 214.766C-8.46259 169.851 20.6993 124.59 66.3905 116.585L717.742 2.47356C770.908 -6.84076 817.703 38.4027 810.186 91.8528L729.366 666.51C722.576 714.787 674.332 745.636 627.661 731.544Z"
+     fill="url(#paint0_linear_1_12)"
+     stroke="#CED1D5"
+     id="path883" />
+  <defs
+     id="defs890">
+    <linearGradient
+       id="paint0_linear_1_12"
+       x1="826"
+       y1="371"
+       x2="-19"
+       y2="371"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#2C7AED"
+         id="stop885" />
+      <stop
+         offset="1"
+         stop-color="#4BC3CC"
+         id="stop887" />
+    </linearGradient>
+  </defs>
+</svg>
