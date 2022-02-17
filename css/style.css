@@ -21,8 +21,8 @@ body {
 
 .nav {
     background-color: var(--cor2);
-    width: 1240px;
-    height: 45px;
+    max-width: 1240px;
+    max-height: 45px;
     border-radius: 20px;
 
     display: flex;
@@ -62,7 +62,8 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    /* flex-direction: row; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .container-introdutorio {
@@ -111,8 +112,8 @@ body {
 
 .container-degrader {
     background: url(../img/container.svg) no-repeat;
-    height: 750px;
-    width: 500px;
+    min-height: 750px;
+    min-width: 500px;
     /* align-self: flex-end; */
     /* display: flex; */
     /* justify-content: ; */
@@ -131,4 +132,14 @@ body {
 
 .img_03 {
     /* float: bottom; */
+}
+
+@media (max-width: 550px) {
+    .nav {
+        justify-content: center;
+    }
+    
+    .nav-list {
+        display: none;
+    }
 }
