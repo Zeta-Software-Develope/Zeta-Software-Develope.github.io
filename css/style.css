@@ -80,18 +80,18 @@ body {
     flex-direction: column;
 }
 
-.container-introdutorio h1 {
+.h1-geral {
     color: var(--cor3);
     font-size: 2em;
 }
 
-.container-introdutorio h2 {
+.h2-geral {
     color: var(--cor4);
     font-size: 1.5em;
     margin: 10px 0px;
 }
 
-.container-introdutorio p {
+.p-geral {
     color: var(--cor5);
     text-align: left;
     font-size: 1em;
@@ -172,6 +172,12 @@ body {
     height: 300px;
     border-radius: 25px;
     margin: 0px 25px -25px 25px;
+}
+
+.card-dados {
+    width: 550px;
+    height: 300px;
+    margin-left: 25px;
 }
 
 /* Responsibilidade */
