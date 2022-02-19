@@ -182,7 +182,7 @@ body {
 
 /* Footer */
 
-.footer {
+#footer {
     background-color: var(--cor2);
 }
 
