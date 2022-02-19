@@ -271,7 +271,7 @@ body {
 }
 
 .footer-logos {
-    margin-bottom: 15px;
+    margin: 25px 0px 15px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -284,19 +284,41 @@ body {
     align-self: flex-end;
 }
 
-
-
 /* Responsibilidade */
-@media (max-width: 1100px) {
+@media (max-width: 1125px) {
     .container {
         justify-content: center;
     }
+
     .container-introdutorio {
         margin: 15px 0px 25px 0px;
         border-radius: 46px;
     }
+
     .container-degrader {
         display: none;
+    }
+
+    #imagem-final {
+        display: none;
+    }
+
+    .footer-container {
+        justify-content: space-around;
+    }
+
+    .footer-meio {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 715px) {
+    .footer-about {
+        display: none;
+    }
+    
+    .footer-meio {
+        margin-right: 0px;
     }
 }
 
