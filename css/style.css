@@ -307,14 +307,14 @@ body {
     cursor: pointer;
 }
 
-#imagem-final {
+#container-img-final {
     align-self: flex-end;
 }
 
 /* Responsibilidade */
 
 @media (max-width: 1200px) { 
-    #imagem-final {
+    #container-img-final {
         display: none;
     }
 
