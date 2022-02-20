@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Static Template</title>
   </head>
@@ -30,7 +31,7 @@
 
     <main>
       <main class="container">
-        <article class="container-introdutorio">
+        <article class="container-introdutorio" data-aos="fade-right" data-aos-duration="1250">
           <h1 class="h1-geral">Conheça a ZETA</h1>
           <h2 class="h2-geral">A empresa que te trará soluções</h2>
           <p class="p-geral">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, eaque recusandae incidunt vitae quisquam quas odit, consequatur rem animi excepturi quam repellat quia! Asperiores voluptatem reprehenderit aspernatur quae et vero.</p>
@@ -38,8 +39,8 @@
         </article>
 
         <section class="container-degrader">
-          <img src="img/img_02.jpg" alt="Homem Progamando" id="img_02">
-          <img src="img/img_03.jpg" alt="Mãos Progamando" id="img_03">
+          <img src="img/img_02.jpg" alt="Homem Progamando" id="img_02" data-aos="zoom-in" data-aos-duration="1250">
+          <img src="img/img_03.jpg" alt="Mãos Progamando" id="img_03" data-aos="zoom-in" data-aos-duration="1250" data-aos-delay="200">
         </section>
       </main>
 
@@ -48,17 +49,17 @@
       <main id="about">
         <h1 class="h1-cards">About us</h1>
         <article class="flexbox">
-          <main class="sobre-card">
+          <main class="sobre-card" data-aos="fade-down" data-aos-duration="1250">
             <img src="img/app_web.jpg" alt="Perssonagens interagindo com pagina">
             <h1 class="h1-cards">Desenvolvimento Web</h1>
             <p class="p-cards">Desenvolvemos aplicações web desde cedo para o mercado, podemos assim te garantir sites maduros.</p>
           </main>
-          <main class="sobre-card">
+          <main class="sobre-card" data-aos="zoom-in" data-aos-duration="1250">
             <img src="img/app_desktop.jpg" alt="Desenho de mãos progamando">
             <h1 class="h1-cards">Aplicativos Desktops</h1>
             <p class="p-cards">O cargo chefe da empresa, a partir dele podemos construir aplicações para qualquer S.O. que deseje.</p>
           </main>
-          <main class="sobre-card">
+          <main class="sobre-card" data-aos="fade-up" data-aos-duration="1250">
             <img src="img/designer_web.jpg" alt="Perssonagens interagindo com pagina">
             <h1 class="h1-cards">designer</h1>
             <p class="p-cards">Para todos os casos que escolher podemos te manter satisfeito ao visual final da aplicação.</p>
@@ -71,10 +72,10 @@
       <main id="projects">
         <h1 class="h1-cards">Projects</h1>
         <main class="grid">
-          <main class="projetos-card" id="card-img-1">
+          <main class="projetos-card" id="card-img-1" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
             <img src="img/profeto_01.jpg">
           </main>
-          <main class="projetos-card" id="card-img-2">
+          <main class="projetos-card" id="card-img-2" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
             <img src="img/projeto-02.jpg">
           </main>
 
@@ -84,7 +85,7 @@
             <p class="p-geral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum eligendi eaque ducimus, iure facilis quam nesciunt unde magni odit inventore recusandae fuga perspiciatis aut ratione natus aspernatur. Hic, laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, est veniam, sed exercitationem animi adipisci sunt tenetur cupiditate recusandae neque suscipit. Ad aliquid consequatur dolorum inventore pariatur saepe magni quod?</p>
           </article>
 
-          <main class="projetos-card" id="card-img-3">
+          <main class="projetos-card" id="card-img-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine">
             <img src="img/projeto-03.jpg">
           </main>
         </main>
@@ -124,5 +125,10 @@
         <img src="img/img_footer.svg" alt="Desenho de homem encima de mesa" id = "imagem-final">
       </main>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
