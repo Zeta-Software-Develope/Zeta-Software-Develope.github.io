@@ -227,6 +227,7 @@ body {
 .footer-about-h2 {
     color: var(--cor1);
     font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 .footer-p {
@@ -329,7 +330,7 @@ body {
     .grid {
         grid-template-columns: 550px;
         grid-template-areas: "card-dados" "card-1" "card-2" "card-3";
-        grid-gap: 20px;
+        grid-gap: 20px 0px;
     }
 }
 
@@ -355,6 +356,14 @@ body {
     
     .footer-meio {
         margin-right: 0px;
+    }
+
+    .grid {
+        grid-template-columns: 450px;
+    }
+
+    .projetos-card img, .card-dados{
+        width: 450px;
     }
 }
 
